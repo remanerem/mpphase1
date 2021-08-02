@@ -1,0 +1,122 @@
+#hintbox{
+	display:none;
+	position:absolute;
+	font-size:12px;
+	background-color:#FF69B4;
+	color: #fff;
+	border: 1px solid red;
+	padding: 8px;
+	border-radius:5px;
+}
+
+head{
+	font-family:"Lucida Console";
+	font-weight:"bold";
+}
+
+body{
+	font-family:"Lucida Console";
+	font-weight:"bold";
+}
+.tables{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tables td, .tables th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.tables tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+.tables tr:hover{
+	background-color: #ddd;
+}
+
+.tables th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.tables{
+	height: 100%;
+	position: absolute;
+	left: 15%;
+	margin-left: -50px;
+}
+
+#hour_table, #dailyOverview_table{
+	left: 40%;
+	width: 100%;
+}
+
+#dailyOverview_table table{
+	width: 50%;
+}
+
+#overview_table{
+	width: 85%;
+}
+
+#popular_table, #burgerBySpecies_table{
+	width:85%;
+}
+
+.fillInForms1{
+	position: absolute;
+	left: 14%;
+	top: 8%;
+}
+
+.fillInForms2{
+	position: absolute;
+	left: 20%;
+	top: 8%;
+}
+
+.fillInForms{
+	width: 15%;
+	height: 300px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+}
+
+#username,#password,#login{
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	font-size: 16px;
+	resize: none;
+}
+
+#overview,#daily,#hour,#popular,#consumer,#logout{
+	padding: 25px 10px;
+	border-style: double;
+	width:10%;
+}
+
+#day,#month,#year,#time{
+	width:40px;
+	float:left;
+}
+
+#submit{
+	clear:left;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="jquery-3.4.1.min.js" type="text/javascript"></script>
+	<script src="dailyOverviewScripts.js" type="text/javascript"></script>
+
+	<link rel="stylesheet" type="text/css" href="allStyles.css">
+
+	<title>KrustyBoard</title>
+	<h1 class="hover" hinttext="Display all entered sales data of a specific hour or day">Daily Overview</h1>
+</head>
+<body background="background.jpg">
+	<div class="fillInForms1">
+		<p>Enter Date (DD/MM/YYYY) and Time (0-23)</p>
+		<input type="text" id="day" placeholder="DD"><p id="dayerror"></p>
+		<input type="text" id="month" placeholder="MM"><p id="montherror"></p>
+		<input type="text" id="year" placeholder="YYYY"><p id="yearerror"></p>
+		<input type="text" id="time"  class="hover" hinttext="Leave blank to see whole day sales overview" placeholder="Time"><p id="timeerror"></p>
+		<input type="button" id="submit" value="Submit">
+	</div>
+
+	<div id="dailyOverview_table" class="tables">
+	</div>
+
+	<div id="hintbox"></div>
+	<div id="overview" class="hover" hinttext="Display all entered sales data">Overview</div>
+	<div id="hour" class="hover" hinttext="See how many customers were served at which hour/day">Hourly Sales</div>
+	<div id="popular" class="hover" hinttext="See which grubs gets the most audience">Most Popular</div>
+	<div id="consumer" class="hover" hinttext="See which species buy which and how much food">Consumer Details</div>
+	<div id="logout">Log Out</div>
+</body>
+</html>
